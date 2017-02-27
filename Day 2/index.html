@@ -1,0 +1,26 @@
+<!doctype HTML>
+<html>
+    <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </head>
+        <body ng-app="FWFApplication" ng-controller="Control">
+          <form ng-submit="onFormSubmit()">
+            <label>
+              Plant Name: 
+              <input type="text" ng-model="plant.name"/>
+            </label>
+            <label>
+              Price:
+              <input type="text" ng-model="plant.price"/>
+            </label>
+            <button type="submit">Submit</button>
+          </form>
+          <ul>
+            <li ng-repeat="plant in plantArray track by $index"> 
+              {{ plant.name }} - <small> {{ plant.price | currency }}</small>
+             <button ng-click="removeItemAt($index)">x</button>
+             </li>
+          </ul>
+        </body>
+</html>
