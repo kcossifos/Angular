@@ -2,7 +2,7 @@
 
 ## Descripition 
 This application is about adopting cats from a shelter. This site allows you to filter through cats, like a cat, comment on a cats picture, and upload pictures of your own cat. The following coding languages are used for this site AngularJS, HTML, CSS and Jquery.
-To view this application go to [Fuzzy Friends Adoption](https://kcossifos.github.io/Portfolio/CatAdoption/index.html)
+To view this application go to [Fuzzy Friends Adoption](https://kcossifos.github.io/Angular/CatAdoption/index.html)
 
 ## Getting Started
 ```
